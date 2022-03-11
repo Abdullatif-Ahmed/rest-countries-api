@@ -27,9 +27,9 @@ function toggleMode() {
 toggleMode();
 function toggleImg() {
   if (document.body.classList.contains("dark-mode")) {
-    document.querySelector("#mode-toggle img").src = "../images/icon-sun.svg";
+    document.querySelector("#mode-toggle img").src = "./images/icon-sun.svg";
   } else if (document.body.classList.contains("light-mode")) {
-    document.querySelector("#mode-toggle img").src = "../images/icon-moon.svg";
+    document.querySelector("#mode-toggle img").src = "./images/icon-moon.svg";
   }
 }
 toggleImg();
